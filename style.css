@@ -1,0 +1,672 @@
+body{
+    margin:0;
+}
+
+h2{
+    color:white;
+    margin-bottom: 0rem;
+}
+
+h4{
+    color:white;
+    margin-top: 0rem;
+}
+.content1{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.anchor1{
+    color:goldenrod;
+    text-decoration: none;
+}
+
+.anchor2{
+    text-decoration: none;
+    color:white;
+}
+
+.anchor3{
+    text-decoration: none;
+    color:white;
+}
+
+.anchor4{
+    text-decoration: none;
+    color:white;
+}
+
+
+.anchor2:hover{
+    color:goldenrod;
+}
+
+.anchor3:hover{
+    color:goldenrod;
+}
+
+.anchor4:hover{
+    color:goldenrod;
+}
+
+.container{
+    display: flex;
+    margin:1.5rem;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+
+
+#image1{
+    background-image: url(food_image.jpg);
+    background-size:cover;
+    overflow: hidden;
+    height:42rem;
+    background-position:5% 75%;
+    position: relative;
+}
+
+nav{
+    height: 1.3rem;
+    display: flex;
+    gap:1.7rem;
+}
+
+.p-cont p{
+    font-size:3.5rem;
+    color:white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-wrap: wrap;
+    width: 50rem;
+}
+
+.p-cont{
+    margin-top: 22rem;
+    margin-left: 35rem;
+}
+
+
+.slider{
+    display: flex;
+}
+
+.slider img {
+    width:100%;
+    height: 300px;
+    transition: all 0.5s ease;
+}
+
+.img2-content{
+    display: flex;
+    height: 36rem;
+    margin-top: 7rem;
+    gap:3rem;
+}
+
+.content2{
+    height: 34rem;
+    width: 19rem;
+    margin-left: 25rem;
+    animation-name :myanimation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count:1;
+    animation-direction:normal;
+}
+
+.content2 h1{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 0rem;
+}
+
+.content2 h4{
+    margin-bottom: 0rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: red;
+}
+
+.content2 p{
+    font-size: 1.10rem;
+    margin-left: 1rem;
+}
+
+.image2{
+    height: 31.5rem;
+    margin-left: 5rem;
+    width:20rem;
+    background-image: url(restaurant.jpg);
+    background-size:contain;
+    animation-name:myanimation1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+}
+@keyframes myanimation{
+    from{margin-left: 5rem;}
+    to{margin-left:25rem;} 
+}  
+@keyframes myanimation1{
+    from{margin-left: 40rem;}
+    to{margin-left: 5rem;}
+}
+
+.image3{
+    background-image: url("food_image1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    width: 92.8rem;
+    margin-top:1rem;
+}
+
+.img3-content p{
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    top:2rem;
+    width:50rem;
+    margin-left: 33rem;
+    text-transform: capitalize;
+}
+
+
+.content3{
+    height: 10rem;
+    width: 60rem;
+    text-align: center;
+    margin-top: 8rem;
+    margin-left: 17rem;
+}
+
+.p3{
+    margin-top: 0rem;
+}
+
+.p1{
+    font-weight: bold;
+    font-size:2rem;
+    color:red;
+    margin-bottom: 0rem;
+}
+.p2{
+    margin-top: 0rem;
+    font-size:2.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.9rem;
+}
+
+.contain{
+    display: flex;
+    height: 40rem;
+    margin-left: 5rem;
+    gap:5rem;
+    margin-top: 1rem;
+}
+
+.img1{
+    width: 40rem;
+    height: 35rem;
+    background-image: url('indian.jpg');
+    background-size: 43rem;
+    background-position:top center;
+    transition:all 1s ease;
+}
+
+
+.img1 h2{
+    color:black;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align:center;
+    margin-top: 0.7rem;
+}
+
+.img2{
+    width: 40rem;
+    height: 35rem;
+    background-position:center;
+    background-image: url('Chinese.jpg');
+    background-size: 43rem;
+    transition:all 1s ease;
+}
+
+.img2 h2{
+    color:white;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align:center;
+    margin-top: 0.7rem;
+}
+
+.img1:hover{
+    background-size:50rem;
+}
+
+.img2:hover{
+    background-size: 50rem;
+}
+
+.image6{
+    height: 50rem;
+    margin-top:4rem;
+    background-image: url('indian1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+ 
+.image6 h2{
+    color:red;
+    font-size:3rem;
+    font-weight: bold;
+    position: relative;
+    margin-left: 37rem;
+    top:2.5rem;
+}
+
+.img6-content{
+    display: flex;
+    gap:10rem;
+    margin-top: 11rem;
+    margin-left: 7rem;
+}
+
+.box1{
+    height: 20rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding:1rem;
+    box-sizing: border-box;
+}
+
+.inner1{
+    box-sizing: border-box;
+    border: 0.2rem solid goldenrod;
+    border-radius: 0.4rem;
+    height: 100%;
+    border-style:groove double;
+    padding:1rem;
+}
+
+.box1-p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.name1{
+    margin-top: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box1 span{
+    position: relative;
+    left: 4.4rem;
+    margin-top: 1.9rem;
+}
+
+.checked{
+    color: gold;
+}
+
+.box2{
+    height: 20rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding:1rem;
+    box-sizing: border-box;
+}
+
+.inner2{
+    box-sizing: border-box;
+    border: 0.2rem solid goldenrod;
+    border-radius: 0.4rem;
+    height: 100%;
+    border-style:groove double;
+    padding:1rem;
+}
+
+.box2-p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.box2 span{
+    position: relative;
+    left: 5rem;
+    margin-top: 1.9rem;
+}
+
+.name2{
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box3{
+    height: 20rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding:1rem;
+    box-sizing: border-box;
+}
+
+.inner3{
+    box-sizing: border-box;
+    border: 0.2rem solid goldenrod;
+    border-radius: 0.4rem;
+    height: 100%;
+    border-style:groove double;
+    padding:1rem;
+}
+
+.box3-p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.box3 span{
+    position: relative;
+    left: 5rem;
+    margin-top: 1.9rem;
+}
+
+.name3{
+    margin-top: 2.7rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container1{
+    display: flex;
+    width: 50rem;
+    flex-direction: column;
+    gap:2rem;
+    margin-left: 22.7rem;
+    margin-top: 5rem;
+}
+
+.content4{
+    width:50rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.cont4-p1{
+    margin-bottom: 0.1rem;
+    color:orange;
+}
+
+.hr2{
+    color: orange;
+    width: 5rem;
+    margin-top: 1.3rem;
+}
+
+.cont4-p2{
+    font-size: 2.1rem;
+    margin-top: 0rem;
+    margin-left: 0.3rem;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 0rem;
+}
+
+.cont4-p3{
+    margin-top: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.content5{
+    display: flex;
+    flex-direction: column;
+    height: 18rem;
+    border:3px solid orange;
+    gap:0.7rem;
+    border-style: double;
+}
+
+.contain1{
+    width: 69.5rem;
+    height: 20.9rem;
+    border: 0.2rem solid orange;
+    border-radius: 0.2rem;
+    border-style: groove double;
+    position: relative;
+    left:-135px;
+    
+}
+
+
+.cont{
+    display: flex;
+    gap:0.5rem;
+}
+
+.contain1 form .input_box{
+    width: 20rem;
+    position: relative;
+    margin-left:2.1rem;
+    margin-top: 3rem;
+    height: 1.9rem;
+}
+
+
+.contain1 form .input_box input{
+    width:20rem;
+    font-size:2rem;
+    font-weight: bold;
+    padding:7px 0px;
+    height: 1.9rem;
+    border: 1 rem solid black;
+}
+
+.contain1 form .input_box label{
+    position: absolute;
+    left:0px;
+    font-size: 1rem;
+    top:10px;
+    pointer-events: none;
+    margin-left: 1.2rem;
+    transition: 0.2s;
+    color:grey
+}
+
+
+.contain1 form .text_box textarea{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: 65.1rem;
+    height: 5rem;
+}
+
+.contain1 form .text_box label{
+    position: absolute;
+    left:3rem;
+    font-size: 1rem;
+    top:8.5rem;
+    pointer-events: none;
+    transition: 0.2s;
+    color:grey
+}
+
+.contain1 form  .input_box input:focus + label,
+.contain1 form  .input_box input:valid + label{
+    top:-15px;
+    font-size: 18px;
+    color: orange;
+}
+
+
+.contain1 .button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 7px 20px;
+    color: #fff;
+    width: 65.5rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border: none;
+    background-color:#282828;
+    cursor: pointer;
+}
+
+.contain1 .button:active{
+    color:#000;
+    background-color: #fff;
+}
+
+
+.content6{
+    background-color:#282828;
+    height: 30rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.cont6-content1 a{
+    padding: 0.6rem;
+    color:white;
+}
+
+.cont6-content1 a:hover{
+    color:red;
+}
+
+.cont6-content1{
+    margin-top: 10rem;
+    height: 16.5rem;
+    width: 15rem;
+    color:white;
+}
+
+.cont6-content2{
+    margin-top: 10rem;
+    height: 16.5rem;
+    width: 15rem;
+    color:white;
+}
+
+.cont6-content2 p:hover{
+    color:goldenrod;
+}
+
+.cont6-content3{
+    margin-top: 10rem;
+    height: 16.5rem;
+    width: 15rem;
+    color:white;
+}
+
+.cont6-content3 p:hover{
+    color:goldenrod;
+}
+
+.cont6-content4{
+    margin-top: 10rem;
+    height: 16.5rem;
+    width: 15rem;
+    color:white;
+}
+
+.cont6-contain1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.cont6-contain1 a:hover{
+    color:goldenrod;
+}
+
+.cont6-contain2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.cont6-contain2 a:hover{
+    color:goldenrod;
+}
+
+.cont6-contain3 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.cont6-contain3 a:hover{
+    color:goldenrod;
+}
+
+.content1-h3{
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+}
+
+.content1-p2{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content1-p3{
+    color:gainsboro;
+}
+
+.content2-h3{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+.content3-h3{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+
+.cont6-content2{
+    color:gainsboro;
+}
+
+.cont6-content3{
+    color:gainsboro;
+}

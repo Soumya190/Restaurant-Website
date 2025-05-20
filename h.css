@@ -1,0 +1,15 @@
+section {
+    white-space: nowrap;
+  }
+  div {
+    height: 150px;
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
+  }
+  .green {
+    background: lightgreen;
+  }
+  .blue {
+    background: lightblue;
+  }
